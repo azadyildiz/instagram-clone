@@ -49,6 +49,7 @@
     font-weight: 600;
     font-size: 14px;
     background-color: #fafafa;
+
 }
 .header-container{
     width: 100%;
@@ -61,12 +62,13 @@
     position: sticky;
 }
 .header{
-    width: 80.9rem;
+    width: 66.6rem;
     height: 3.7rem;
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
     align-items: center;
     background-color: white;
+    padding: 0 1.5rem;
 }
 .logo{
     padding-top: .8rem;
@@ -88,7 +90,7 @@
     font-size: .9rem;
 }
 .icon{
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     padding-right: 1rem;
     background-color: white;
 }
@@ -103,9 +105,71 @@
     align-items:center;
     justify-content: center;
 }
-
+.main-content{
+    margin-top: 2.2rem;
+    height: 2000px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.posts{
+    background-color: red;
+    width: 44.2rem;
+    height: 2000px;
+}
+.content{
+    width: 21.8rem;
+    height: 2000px;
+    margin-top: 1.5rem;
+    margin-left: 2.5rem;
+}
+.user-profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.content-pp{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border: 2px solid white;
+    outline: 1px solid rgba(0, 0, 0, .15);
+}
+.profiles{
+    margin-left: -7.4rem;
+    margin-top: -.1rem;
+}
+.blue-buttons{
+    font-size: .85rem;color: #0f9bf6;font-weight:bold;
+    cursor: pointer;
+}
+.rec-pp{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    margin-left: .25rem;
+    cursor: pointer;
+}
+.rec-profiles{
+    margin-left: -1rem;
+    margin-top: -.1rem;
+}
+.footer{
+    margin-top: 2rem;
+}
+.footer-text{
+    font-size: .8rem;
+    color: rgba(0, 0, 0, .25);
+    cursor: pointer;
+}
 @media only screen and (max-width:650px){
     .searchbar{
+        display: none;
+    }
+}
+@media only screen and (max-width:985px){
+    .content{
         display: none;
     }
 }
