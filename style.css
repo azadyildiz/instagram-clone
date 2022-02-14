@@ -49,7 +49,6 @@
     font-weight: 600;
     font-size: 14px;
     background-color: #fafafa;
-
 }
 .header-container{
     width: 100%;
@@ -59,7 +58,6 @@
     align-items: center;
     background-color: white;
     border: 1px solid rgba(0, 0, 0, .15);
-    position: sticky;
 }
 .header{
     width: 66.6rem;
@@ -144,6 +142,7 @@
     letter-spacing: 0px;
     font-size: 0.8rem;
     color: rgba(0, 0, 0, .35);
+    font-weight: 700;
 }
 .next-button{
     background: white;
@@ -168,13 +167,67 @@
 }
 .post{
     width: 100%;
-    height: 15rem;
-    background: red;
+    height: auto;
     margin-top: 1.8rem;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 5px;
 }
+.post-header{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.post-pic img{
+    width: 100%;
+}
+.post-profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 155px;
+    margin: 20px;
 
-
-
+}
+.post-pp{
+    width: 2.6rem;
+    height: 2.6rem;
+    border-radius: 50%;
+    border: 2px solid white;
+    outline: 1px solid rgba(0, 0, 0, .15);
+    cursor: pointer;
+    margin-top: 10px;
+}
+.post-buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.post-buttons i{
+    font-size: 25px;
+    margin: 10px;
+}
+.post-comment{
+    width: auto;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgba(0, 0, 0, .15);
+}
+.comment-side{
+    display: flex;align-items: center;margin: 10px;
+}
+.comment-side i{
+    font-size: 25px;
+    margin-right: 10px;
+}
+.comment-side span{
+    color: rgba(0, 0, 0, .35);
+}
 
 .content{
     width: 21.8rem;
